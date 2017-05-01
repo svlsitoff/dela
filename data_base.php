@@ -4,7 +4,7 @@
  	public $con;
 	public function __construct() 
 	 	{
-	 		$this->con = new PDO("mysql:host=localhost;dbname=todo","root","", [
+	 		$this->con = new PDO("mysql:host=localhost;dbname=sarapulov","sarapulov","neto0982", [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 	    }
     public function show($sql) // выводит данные
