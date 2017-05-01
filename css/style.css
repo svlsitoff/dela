@@ -1,0 +1,37 @@
+body {
+	background: url(todo.jpg);
+	margin: 0px;
+}
+div.table{
+	margin-left: 0px;
+	background: rgb(222, 184, 135);
+	width: 1366px;
+	margin-bottom: : 10px;
+}
+ table {
+ 	margin: auto;
+	width: 1200px;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+ }
+ table td, table th {
+     border: 1px solid #ccc;
+     padding: 5px;
+     background: rgb(0, 255, 127);
+ }
+ 
+ table th {
+
+     background: rgb(144, 238, 144);
+ }
+div.add1{ 
+	margin-left: 82px;
+	margin-top: 5px;
+	float: left;
+}div.add2{
+	float: left;
+	 margin-left: 20px;
+	 margin-bottom: 10px;
+	 margin-top: 5px;
+}
